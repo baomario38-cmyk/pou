@@ -1,0 +1,15 @@
+{
+  "name": "payos-server",
+  "version": "1.0.0",
+  "description": "PayOS Webhook Server for Render",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@payos/node": "^1.0.10",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
